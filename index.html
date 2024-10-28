@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <head>
+        <title>Changing Themes</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+    <body>
+        <!--Create header that is being manipulated-->
+        <div id="h1">
+            <h1>Amazing Website with Changing Themes</h1>
+        </div>
+        
+
+        <p>Please select your desired theme:</p>
+        <!--Select options for themes-->
+        <label>
+            <input type="radio" id="november" name="theme" />
+            November
+        </label><br>
+        
+        <label>
+            <input type="radio" id="december" name="theme" />
+            December
+        </label><br>
+
+        <!--Button-->
+        <button onclick="changeTheme()">Change theme</button>
+
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
